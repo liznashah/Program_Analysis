@@ -1,0 +1,32 @@
+"""
+This module provides a function to append an item to a list.
+"""
+
+from typing import List, Any
+
+def append_to_list(item: Any, my_list: List[Any] = None) -> List[Any]:
+    """
+    Append an item to a list and return the list.
+
+    Args:
+        item (Any): The item to append.
+        my_list (List[Any], optional): The list to which the item will be appended.
+                                       If None, a new list is created. Defaults to None.
+
+    Returns:
+        List[Any]: The list with the appended item.
+    """
+    if my_list is None:
+        my_list = []
+    my_list.append(item)
+    return my_list
+
+def main() -> None:
+    """
+    Main function to demonstrate the append_to_list function.
+    """
+    print(append_to_list(1))
+    print(append_to_list(2))
+
+if __name__ == "__main__":
+    main()
