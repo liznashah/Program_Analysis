@@ -1,0 +1,26 @@
+"""
+This module provides a simple function to check the value and return a message.
+"""
+
+def check_value(value: int) -> str:
+    """
+    Check if the value is greater than 10 and return an appropriate message.
+
+    Args:
+        value (int): The value to check.
+
+    Returns:
+        str: A message indicating whether the value is greater than 10 or not.
+    """
+    if value > 10:
+        return "Greater than 10"
+    return "Less or equal to 10"
+
+def main() -> None:
+    """
+    Main function to demonstrate the check_value function.
+    """
+    print(check_value(5))
+
+if __name__ == "__main__":
+    main()
