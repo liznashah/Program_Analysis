@@ -1,0 +1,18 @@
+"""
+This module contains a simple greeting function.
+"""
+
+def greeting(name: str) -> str:
+    """
+    Return a greeting message for the given name.
+
+    Args:
+        name (str): The name to greet.
+
+    Returns:
+        str: The greeting message.
+    """
+    return f"Hello, {name}!"
+
+message = greeting("World")
+print(message)
