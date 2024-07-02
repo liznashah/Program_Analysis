@@ -1,0 +1,27 @@
+"""
+This module provides a simple function to add two numbers.
+"""
+
+def add_numbers(a: int, b: int) -> int:
+    """
+    Add two numbers and return the result.
+
+    Args:
+        a (int): The first number.
+        b (int): The second number.
+
+    Returns:
+        int: The sum of the two numbers.
+    """
+    result = a + b
+    return result
+
+def main() -> None:
+    """
+    Main function to demonstrate adding two numbers.
+    """
+    x = add_numbers(3, 4)
+    print(x)
+
+if __name__ == "__main__":
+    main()
