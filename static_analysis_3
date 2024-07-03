@@ -1,5 +1,5 @@
 """
-This module provides a simple function to add two numbers.
+This module provides a simple to add two numbers.
 """
 
 def add_numbers(a: int, b: int) -> int:
